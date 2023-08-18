@@ -15,4 +15,14 @@ class Solver
     end
     reversed_string
   end
+
+  def fizzbuzz(num)
+    if (num % 5).zero? and (num % 3).zero?
+      'fizzbuzz'
+    elsif (num % 3).zero?
+      'fizz'
+    else
+      'buzz'
+    end
+  end
 end
