@@ -129,4 +129,4 @@ I would like to thank Microverse for helping me in my journey to become a Fullst
 
 This project is [MIT](./LICENSE) licensed.
 
-<p align="right"><a href="#readme-top">👆</a></p><!-- TABLE OF CONTENTS -->
+<p align="right"><a href="#readme-top">👆</a></p>
