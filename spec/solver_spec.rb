@@ -20,11 +20,11 @@ describe 'Solver tests' do
 
   describe 'Reverse tests' do
     it 'should reverse a string' do
-      expect(solver.reverse('Hello')).to eql('olleH')
+      expect(solver.reverse_string('Hello')).to eql('olleH')
     end
 
     it 'should reverse a string' do
-      expect(solver.reverse('ahmed')).to eql('demha')
+      expect(solver.reverse_string('ahmed')).to eql('demha')
     end
   end
 end
