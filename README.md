@@ -24,7 +24,7 @@
 
 # 📖 TDD <a name="about-project"></a>
 
-**TDD** is an project to exercise Test Driven Development
+**TDD** is a project to exercise Test Driven Development
 
 ## 🛠 Built With <a name="built-with"></a>
 

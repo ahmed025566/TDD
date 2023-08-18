@@ -17,4 +17,14 @@ describe 'Solver tests' do
       expect(solver.factorial(7)).to eql(5040)
     end
   end
+
+  describe 'Reverse tests' do
+    it 'should reverse a string' do
+      expect(solver.reverse('Hello')).to eql('olleH')
+    end
+
+    it 'should reverse a string' do
+      expect(solver.reverse('ahmed')).to eql('demha')
+    end
+  end
 end
