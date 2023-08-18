@@ -27,4 +27,16 @@ describe 'Solver tests' do
       expect(solver.reverse_string('ahmed')).to eql('demha')
     end
   end
+
+  describe 'fizzbuzz Tests' do
+    it 'should return fizzbuzz' do
+      expect(solver.fizzbuzz(15)).to eql('fizzbuzz')
+    end
+    it 'should return fizz' do
+      expect(solver.fizzbuzz(9)).to eql('fizz')
+    end
+    it 'should return buzz' do
+      expect(solver.fizzbuzz(25)).to eql('buzz')
+    end
+  end
 end
