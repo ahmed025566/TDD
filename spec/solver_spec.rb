@@ -33,4 +33,8 @@ describe 'fizzbuzz Tests' do
   it 'should return buzz' do
     expect(solver.fizzbuzz(25)).to eql('buzz')
   end
+
+  it 'should return the number itself' do
+    expect(solver.fizzbuzz(7)).to eql(7)
+  end
 end
